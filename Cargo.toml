@@ -28,7 +28,7 @@ overflow-checks = true
 phoenix-v1 = { git = "https://github.com/sarmatdev/phoenix-v1.git" }
 shank = "=0.0.12"
 solana-program = "1.18.17"
-bytemuck = "=1.14.0"
+bytemuck = "1.16.1"
 borsh = "=0.9.3"
 lib-sokoban = "=0.3.0"
 num_enum = "=0.5.9"
@@ -37,7 +37,7 @@ thiserror = "1.0.56"
 ellipsis-macros = "=0.1.1"
 solana-security-txt = "1.1.1"
 static_assertions = "=1.1.0"
-spl-token = { version = "6.0.0", features = ["no-entrypoint"] }
+spl-token = { version = "5.0.0", features = ["no-entrypoint"] }
 spl-associated-token-account = { version = "4.0.0", features = [
     "no-entrypoint",
 ] }
