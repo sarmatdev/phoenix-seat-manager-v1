@@ -27,7 +27,7 @@ overflow-checks = true
 [dependencies]
 phoenix-v1 = { git = "https://github.com/sarmatdev/phoenix-v1.git" }
 shank = "=0.0.12"
-solana-program = "=1.16.24"
+solana-program = "1.18.17"
 bytemuck = "=1.14.0"
 borsh = "=0.9.3"
 lib-sokoban = "=0.3.0"
@@ -35,10 +35,10 @@ num_enum = "=0.5.9"
 itertools = "=0.10.5"
 thiserror = "1.0.56"
 ellipsis-macros = "=0.1.1"
-solana-security-txt = "=1.1.0"
+solana-security-txt = "1.1.1"
 static_assertions = "=1.1.0"
-spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
-spl-associated-token-account = { version = "=2.2.0", features = [
+spl-token = { version = "6.0.0", features = ["no-entrypoint"] }
+spl-associated-token-account = { version = "4.0.0", features = [
     "no-entrypoint",
 ] }
 toml_edit = "=0.18.1"
@@ -48,5 +48,5 @@ proc-macro-crate = "=1.3.0"
 rand = "0.7.3"
 ellipsis-client = "0.1.17"
 tokio = { version = "1.8.4", features = ["full"] }
-solana-sdk = "=1.16.24"
+solana-sdk = "1.18.17"
 phoenix-sdk = { git = "https://github.com/sarmatdev/phoenix-sdk.git" }
